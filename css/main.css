@@ -1,0 +1,50 @@
+body{background-color: rgb(52, 50, 2);
+}@media only screen and (max-width: 600px) {body{
+	background-color: rgb(228, 225, 190)
+}}
+
+.header {
+	background-color: rgb(190, 176, 133); width: 100%; height: 220px;
+	background-image: url(../img/rijswijk.jpg);
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;}
+.p1 {font-family: Arial, Helvetica, sans-serif; color:rgb(25, 32, 3); font-size: 60px; text-align: center;}
+
+.footer {background-color: rgb(190, 176, 133); width: 100%; height: 110px; clear: left;}
+
+.WM {display: block; margin-left: auto;
+	margin-right: auto; height: auto; width: 300px; padding: 5px;}
+	
+	[class*="col-"] {
+		width: 100%;
+	}
+	@media only screen and (min-width: 600px) {
+		[class*="col-"] {
+		float: left;
+		padding: 15px;
+		}
+		.col-1 {width: 8.33%;}
+		.col-2 {width: 16.66%;}
+		.col-3 {width: 25%;}
+		.col-4 {width: 33.33%;}
+		.col-5 {width: 41.66%;}
+		.col-6 {width: 50%;}
+		.col-7 {width: 58.33%;}
+		.col-8 {width: 66.66%;}
+		.col-9 {width: 75%;}
+		.col-10 {width: 83.33%;}
+		.col-11 {width: 91.66%;}
+		.col-12 {width: 100%;} 
+	}
+
+.col-9 img {float: right; height: 120px; margin-right: 10px; margin-left: 10px;}
+
+.drievliet {background-color:rgb(150, 139, 54); height: auto; font-family: Arial, Helvetica, sans-serif; 
+	color:rgb(25, 32, 3); font-size: 15px; text-align: left; padding: 25px;}
+
+.BCCD {background-color:rgb(150, 139, 54); height: auto; font-family: Arial, Helvetica, sans-serif; 
+	color:rgb(25, 32, 3); font-size: 15px; text-align: left; padding: 25px;}
+
+.table {background-color:rgb(150, 139, 54); height: auto; font-family: Arial, Helvetica, sans-serif; 
+	color:rgb(25, 32, 3); font-size: 14px; text-align: left; padding:10px;} 
